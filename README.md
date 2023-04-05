@@ -27,22 +27,16 @@ child 2 holds
                             |
                             |
                             |
-       _________________________________________
-       |                                        |
-       |                PARENT CLASS            |
-       |________________________________________|
+       ____________________________________________
+       |                                          |
+       |                PARENT CLASS              |
+       |__________________________________________|
                   |                         |
                   |                         |
-       _________________________________________
-       |                                        |
-       |                child 1                 |
-       |________________________________________|
-       
-        _________________________________________
-       |                                        |
-       |                child 2                 |
-       |________________________________________|
-       
+       ___________________________________________________________
+       |                            |                            |
+       |          child 1           |             child 2        |
+       |____________________________|____________________________|
        
 
 Game of Pig Rules: You and the computer, acting as your opponent, both roll a dice and accumulate your total dice rolls value to 100. First to 100 wins. A player must roll as many dice as they want, and then finish their turn for their sum to be accumulated into their 'total score'. Sounds straightforward right? Well there's a catch. If a player rolls a zero, their accumulated points within their turn are null and their turn ends. Players can choose to roll or to finish their turn after however many rolls they want and add their points to the sum. Your opponent, the computer, likes accumulating 20 points before passing so play wisely!
